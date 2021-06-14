@@ -56,10 +56,24 @@ public class ReadConfig {
 	
 	public String getChromepath()
 	{
-		String Chromepath=pro.getProperty("chromepath");
-		return Chromepath;
+		String chrome=pro.getProperty("chromepath");
+		return chrome;
 		
 	}
+	public String getFirefox()
+	{
+		String firefox=pro.getProperty("geckodriver");
+		return firefox;
+		
+	}
+	public String getIEdriver()
+	{
+		String iedriver=pro.getProperty("IEDriverServer");
+		return iedriver;
+		
+	}
+	
+
 	
 	
 }
